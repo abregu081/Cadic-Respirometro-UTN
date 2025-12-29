@@ -1,0 +1,17 @@
+[
+    {
+        "id": "prog_1766966207440",
+        "tipo": "Tiempo",
+        "nombre": "",
+        "inicio": "2025-12-28 20:56:47",
+        "fin": "2025-12-28 20:57:01",
+        "duracion": "0h 0m 10s",
+        "activo": true,
+        "targets": [
+            "l1"
+        ],
+        "accion": "on",
+        "fin_accion": "off",
+        "fecha_creacion": "2025-12-28 20:56:47"
+    }
+]

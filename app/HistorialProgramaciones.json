@@ -1,0 +1,72 @@
+[
+  {
+    "ts": "2025-12-28 20:57:01",
+    "evento": "FINALIZADA",
+    "prog": {
+      "id": "prog_1766966207440",
+      "tipo": "Tiempo",
+      "inicio": "2025-12-28 20:56:47",
+      "fin": "2025-12-28 20:57:01",
+      "duracion": "0h 0m 10s",
+      "targets": [
+        "l1"
+      ],
+      "accion": "on",
+      "fin_accion": "off"
+    },
+    "extra": {
+      "fin_accion_aplicada": "off"
+    }
+  },
+  {
+    "ts": "2025-12-28 20:56:47",
+    "evento": "CREADA",
+    "prog": {
+      "id": "prog_1766966207440",
+      "tipo": "Tiempo",
+      "inicio": "2025-12-28 20:56:47",
+      "fin": "2025-12-28 20:56:57",
+      "duracion": "0h 0m 10s",
+      "targets": [
+        "l1"
+      ],
+      "accion": "on",
+      "fin_accion": "off"
+    }
+  },
+  {
+    "ts": "2025-12-28 20:29:29",
+    "evento": "FINALIZADA",
+    "prog": {
+      "id": "prog_1766964539800",
+      "tipo": "Tiempo",
+      "inicio": "2025-12-28 20:28:59",
+      "fin": "2025-12-28 20:29:29",
+      "duracion": "0h 0m 30s",
+      "targets": [
+        "l1"
+      ],
+      "accion": "on",
+      "fin_accion": "off"
+    },
+    "extra": {
+      "fin_accion_aplicada": "off"
+    }
+  },
+  {
+    "ts": "2025-12-28 20:28:59",
+    "evento": "CREADA",
+    "prog": {
+      "id": "prog_1766964539800",
+      "tipo": "Tiempo",
+      "inicio": "2025-12-28 20:28:59",
+      "fin": "2025-12-28 20:29:29",
+      "duracion": "0h 0m 30s",
+      "targets": [
+        "l1"
+      ],
+      "accion": "on",
+      "fin_accion": "off"
+    }
+  }
+]
