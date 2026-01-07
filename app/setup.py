@@ -19,7 +19,6 @@ from cx_Freeze import setup, Executable
 
 # -------------------------
 # 1) Detectar script de entrada
-#    Ajustá a mano si tu entrypoint es otro.
 CANDIDATES = [
     "app/main.py",
     "main.py"
@@ -58,12 +57,7 @@ add_if_exists(include_files, "app/HistorialProgramaciones.json", "HistorialProgr
 for cfg in list(Path(".").glob("*.cfg")) + list(Path("app").glob("*.cfg")):
     include_files.append((str(cfg), cfg.name))
 
-# Si tenés otros archivos (iconos, assets, etc.), agregalos acá:
-# include_files.append(("assets", "assets"))
 
-
-# -------------------------
-# 3) Opciones de build
 build_exe_options = {
     "include_files": include_files,
     # Si tenés imports dinámicos (por ejemplo: importlib), podés forzar "packages"/"includes"
@@ -81,8 +75,6 @@ build_exe_options = {
 }
 
 
-# -------------------------
-# 4) Base (no abrir consola en Windows)
 base = "Win32GUI" if sys.platform == "win32" else None
 
 executables = [
